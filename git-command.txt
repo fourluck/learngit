@@ -23,3 +23,6 @@ git stash 存储现场
 git stash pop 恢复现场的同时把stash内容也删了
 git stash apply恢复现场，恢复后stash内容并不删除，需要用git stash drop来删除
 git stash apply stash@{0} 恢复指定的stash
+git pull 远程更新
+git checkout -b branch-name origin/branch-name 在本地创建和远程分支对应的分支
+git branch --set-upstream branch-name origin/branch-name 建立本地分支和远程分支的关联
