@@ -18,3 +18,4 @@ git checkout -b <name> 创建并切换分支
 git merge <name> 合并某分支到当前分支
 git branch -d <name> 删除某分支
 git log --graph --pretty=oneline --abbrev-commit 查看分支合并图
+git merge --no-ff -m "distribution" <branch name> 普通模式合并，合并后的历史有分支
