@@ -1,0 +1,7 @@
+git add <filename> 添加需要提交的文件
+git commit -m "distribution" 提交文件附带注释
+git status 仓库当前状态
+git diff <filename> 查看文件被修改的内容
+git log 查看提交日志  简化输出 git log --pretty=oneline
+git reset --hard HEAD^ 回退到上一个版本 HEAD^^ 上上版本 HEAD~100 上100个版本
+git reset --hard <commit id> 回退到指定版本
